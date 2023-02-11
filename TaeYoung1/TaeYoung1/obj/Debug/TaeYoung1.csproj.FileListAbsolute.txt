@@ -1,0 +1,88 @@
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\TaeYoung1.exe.config
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\TaeYoung1.exe
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\TaeYoung1.pdb
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\obj\Debug\TaeYoung1.csproj.AssemblyReference.cache
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\obj\Debug\TaeYoung1.csproj.SuggestedBindingRedirects.cache
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\obj\Debug\TaeYoung1.Properties.Resources.resources
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\obj\Debug\TaeYoung1.csproj.GenerateResource.cache
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\obj\Debug\TaeYoung1.csproj.CoreCompileInputs.cache
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\obj\Debug\TaeYoung1.exe
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\obj\Debug\TaeYoung1.pdb
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\Google.Protobuf.dll
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\MySql.Data.dll
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\MySqlConnector.dll
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\NuGet.Frameworks.dll
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\System.Buffers.dll
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\System.Memory.dll
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\ZstdNet.dll
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\Google.Protobuf.pdb
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\Google.Protobuf.xml
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\MySql.Data.xml
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\MySqlConnector.xml
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\NuGet.Frameworks.xml
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\System.Buffers.xml
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\System.Memory.xml
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\obj\Debug\TaeYoung1.csproj.CopyComplete
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\obj\Debug\TaeYoung1.Form1Login.resources
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\obj\Debug\TaeYoung1.Form3CURDbarang.resources
+C:\Users\titus\Desktop\Project Pak Herman\TaeYoung1\obj\Debug\TaeYoung1.Form2CURDtransaksi.resources
+D:\TaeYoung1\TaeYoung1\bin\Debug\TaeYoung1.exe.config
+D:\TaeYoung1\TaeYoung1\bin\Debug\TaeYoung1.exe
+D:\TaeYoung1\TaeYoung1\bin\Debug\TaeYoung1.pdb
+D:\TaeYoung1\TaeYoung1\bin\Debug\BouncyCastle.Crypto.dll
+D:\TaeYoung1\TaeYoung1\bin\Debug\Google.Protobuf.dll
+D:\TaeYoung1\TaeYoung1\bin\Debug\K4os.Compression.LZ4.dll
+D:\TaeYoung1\TaeYoung1\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\TaeYoung1\TaeYoung1\bin\Debug\K4os.Hash.xxHash.dll
+D:\TaeYoung1\TaeYoung1\bin\Debug\MySql.Data.dll
+D:\TaeYoung1\TaeYoung1\bin\Debug\MySqlConnector.dll
+D:\TaeYoung1\TaeYoung1\bin\Debug\NuGet.Frameworks.dll
+D:\TaeYoung1\TaeYoung1\bin\Debug\System.Buffers.dll
+D:\TaeYoung1\TaeYoung1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\TaeYoung1\TaeYoung1\bin\Debug\System.Memory.dll
+D:\TaeYoung1\TaeYoung1\bin\Debug\System.Numerics.Vectors.dll
+D:\TaeYoung1\TaeYoung1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\TaeYoung1\TaeYoung1\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\TaeYoung1\TaeYoung1\bin\Debug\ZstdNet.dll
+D:\TaeYoung1\TaeYoung1\bin\Debug\BouncyCastle.Crypto.xml
+D:\TaeYoung1\TaeYoung1\bin\Debug\Google.Protobuf.pdb
+D:\TaeYoung1\TaeYoung1\bin\Debug\Google.Protobuf.xml
+D:\TaeYoung1\TaeYoung1\bin\Debug\K4os.Compression.LZ4.xml
+D:\TaeYoung1\TaeYoung1\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\TaeYoung1\TaeYoung1\bin\Debug\K4os.Hash.xxHash.xml
+D:\TaeYoung1\TaeYoung1\bin\Debug\MySql.Data.xml
+D:\TaeYoung1\TaeYoung1\bin\Debug\MySqlConnector.xml
+D:\TaeYoung1\TaeYoung1\bin\Debug\NuGet.Frameworks.xml
+D:\TaeYoung1\TaeYoung1\bin\Debug\System.Buffers.xml
+D:\TaeYoung1\TaeYoung1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\TaeYoung1\TaeYoung1\bin\Debug\System.Memory.xml
+D:\TaeYoung1\TaeYoung1\bin\Debug\System.Numerics.Vectors.xml
+D:\TaeYoung1\TaeYoung1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\TaeYoung1\TaeYoung1\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\TaeYoung1\TaeYoung1\obj\Debug\TaeYoung1.csproj.AssemblyReference.cache
+D:\TaeYoung1\TaeYoung1\obj\Debug\TaeYoung1.csproj.SuggestedBindingRedirects.cache
+D:\TaeYoung1\TaeYoung1\obj\Debug\TaeYoung1.Form3CURDbarang.resources
+D:\TaeYoung1\TaeYoung1\obj\Debug\TaeYoung1.Form1Login.resources
+D:\TaeYoung1\TaeYoung1\obj\Debug\TaeYoung1.Form2CURDtransaksi.resources
+D:\TaeYoung1\TaeYoung1\obj\Debug\TaeYoung1.Properties.Resources.resources
+D:\TaeYoung1\TaeYoung1\obj\Debug\TaeYoung1.csproj.GenerateResource.cache
+D:\TaeYoung1\TaeYoung1\obj\Debug\TaeYoung1.csproj.CoreCompileInputs.cache
+D:\TaeYoung1\TaeYoung1\obj\Debug\TaeYoung1.csproj.CopyComplete
+D:\TaeYoung1\TaeYoung1\obj\Debug\TaeYoung1.exe
+D:\TaeYoung1\TaeYoung1\obj\Debug\TaeYoung1.pdb
