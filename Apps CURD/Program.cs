@@ -16,7 +16,7 @@ namespace Apps_CURD
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form3Perusahaan());
+            Application.Run(new FormInsertBarang());
         }
     }
 }

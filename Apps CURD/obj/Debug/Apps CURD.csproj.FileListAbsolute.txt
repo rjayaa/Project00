@@ -36,3 +36,43 @@ C:\Users\titus\Desktop\Project Pt Tae Young Abadi Jaya\Apps CURD\obj\Debug\Apps 
 C:\Users\titus\Desktop\Project Pt Tae Young Abadi Jaya\Apps CURD\obj\Debug\Apps CURD.csproj.CopyComplete
 C:\Users\titus\Desktop\Project Pt Tae Young Abadi Jaya\Apps CURD\obj\Debug\Apps CURD.exe
 C:\Users\titus\Desktop\Project Pt Tae Young Abadi Jaya\Apps CURD\obj\Debug\Apps CURD.pdb
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\bin\Debug\Apps CURD.exe.config
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\bin\Debug\Apps CURD.exe
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\bin\Debug\Apps CURD.pdb
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\bin\Debug\Google.Protobuf.dll
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\bin\Debug\MySql.Data.dll
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\bin\Debug\NuGet.Frameworks.dll
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\bin\Debug\System.Buffers.dll
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\bin\Debug\System.Memory.dll
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\bin\Debug\ZstdNet.dll
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\bin\Debug\Google.Protobuf.pdb
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\bin\Debug\Google.Protobuf.xml
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\bin\Debug\MySql.Data.xml
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\bin\Debug\NuGet.Frameworks.xml
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\bin\Debug\System.Buffers.xml
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\bin\Debug\System.Memory.xml
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\obj\Debug\Apps CURD.csproj.AssemblyReference.cache
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\obj\Debug\Apps CURD.csproj.SuggestedBindingRedirects.cache
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\obj\Debug\Apps_CURD.Form3Perusahaan.resources
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\obj\Debug\Apps_CURD.Form2Menu.resources
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\obj\Debug\Apps_CURD.Form1Login.resources
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\obj\Debug\Apps_CURD.Properties.Resources.resources
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\obj\Debug\Apps CURD.csproj.GenerateResource.cache
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\obj\Debug\Apps CURD.csproj.CoreCompileInputs.cache
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\obj\Debug\Apps CURD.csproj.CopyComplete
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\obj\Debug\Apps CURD.exe
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\obj\Debug\Apps CURD.pdb
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\obj\Debug\Apps_CURD.Form4InsertBarang.resources
+C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\obj\Debug\Apps_CURD.FormInsertBarang.resources

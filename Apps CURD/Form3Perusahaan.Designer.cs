@@ -30,6 +30,7 @@
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.BtnSave = new System.Windows.Forms.Button();
+            this.BtnUpdate = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.Txt1Nama = new System.Windows.Forms.TextBox();
@@ -52,15 +53,14 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.BtnEdit = new System.Windows.Forms.Button();
             this.BtnDelete = new System.Windows.Forms.Button();
-            this.BtnUpdate = new System.Windows.Forms.Button();
             this.BtnClearView = new System.Windows.Forms.Button();
             this.View1ID = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.DataGridPerusahaan = new System.Windows.Forms.DataGridView();
             this.label7 = new System.Windows.Forms.Label();
             this.BtnExit = new System.Windows.Forms.Button();
-            this.BtnEdit = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridPerusahaan)).BeginInit();
@@ -86,6 +86,16 @@
             this.BtnSave.Text = "Save";
             this.BtnSave.UseVisualStyleBackColor = true;
             this.BtnSave.Click += new System.EventHandler(this.BtnSave_Click);
+            // 
+            // BtnUpdate
+            // 
+            this.BtnUpdate.Location = new System.Drawing.Point(270, 322);
+            this.BtnUpdate.Name = "BtnUpdate";
+            this.BtnUpdate.Size = new System.Drawing.Size(75, 23);
+            this.BtnUpdate.TabIndex = 3;
+            this.BtnUpdate.Text = "Update";
+            this.BtnUpdate.UseVisualStyleBackColor = true;
+            this.BtnUpdate.Click += new System.EventHandler(this.BtnUpdate_Click);
             // 
             // label12
             // 
@@ -273,6 +283,16 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "View Data";
             // 
+            // BtnEdit
+            // 
+            this.BtnEdit.Location = new System.Drawing.Point(318, 304);
+            this.BtnEdit.Name = "BtnEdit";
+            this.BtnEdit.Size = new System.Drawing.Size(75, 23);
+            this.BtnEdit.TabIndex = 5;
+            this.BtnEdit.Text = "Edit";
+            this.BtnEdit.UseVisualStyleBackColor = true;
+            this.BtnEdit.Click += new System.EventHandler(this.BtnEdit_Click);
+            // 
             // BtnDelete
             // 
             this.BtnDelete.Location = new System.Drawing.Point(237, 304);
@@ -282,16 +302,6 @@
             this.BtnDelete.Text = "Delete";
             this.BtnDelete.UseVisualStyleBackColor = true;
             this.BtnDelete.Click += new System.EventHandler(this.BtnDelete_Click);
-            // 
-            // BtnUpdate
-            // 
-            this.BtnUpdate.Location = new System.Drawing.Point(270, 322);
-            this.BtnUpdate.Name = "BtnUpdate";
-            this.BtnUpdate.Size = new System.Drawing.Size(75, 23);
-            this.BtnUpdate.TabIndex = 3;
-            this.BtnUpdate.Text = "Update";
-            this.BtnUpdate.UseVisualStyleBackColor = true;
-            this.BtnUpdate.Click += new System.EventHandler(this.BtnUpdate_Click);
             // 
             // BtnClearView
             // 
@@ -329,6 +339,7 @@
             this.DataGridPerusahaan.Size = new System.Drawing.Size(961, 364);
             this.DataGridPerusahaan.TabIndex = 38;
             this.DataGridPerusahaan.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridPerusahaan_CellClick);
+            
             // 
             // label7
             // 
@@ -347,16 +358,6 @@
             this.BtnExit.TabIndex = 40;
             this.BtnExit.Text = "Exit";
             this.BtnExit.UseVisualStyleBackColor = true;
-            // 
-            // BtnEdit
-            // 
-            this.BtnEdit.Location = new System.Drawing.Point(318, 304);
-            this.BtnEdit.Name = "BtnEdit";
-            this.BtnEdit.Size = new System.Drawing.Size(75, 23);
-            this.BtnEdit.TabIndex = 5;
-            this.BtnEdit.Text = "Edit";
-            this.BtnEdit.UseVisualStyleBackColor = true;
-            this.BtnEdit.Click += new System.EventHandler(this.BtnEdit_Click);
             // 
             // Form3Perusahaan
             // 

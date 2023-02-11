@@ -105,6 +105,18 @@
     <Compile Include="Form1Login.Designer.cs">
       <DependentUpon>Form1Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form4InsertBarang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4InsertBarang.Designer.cs">
+      <DependentUpon>Form4InsertBarang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormInsertBarang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInsertBarang.Designer.cs">
+      <DependentUpon>FormInsertBarang.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form3Perusahaan.resx">
@@ -115,6 +127,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1Login.resx">
       <DependentUpon>Form1Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4InsertBarang.resx">
+      <DependentUpon>Form4InsertBarang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInsertBarang.resx">
+      <DependentUpon>FormInsertBarang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
