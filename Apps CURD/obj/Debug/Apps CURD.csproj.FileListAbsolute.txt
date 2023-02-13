@@ -74,5 +74,4 @@ C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\obj\Debug\Apps CURD.csproj
 C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\obj\Debug\Apps CURD.csproj.CopyComplete
 C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\obj\Debug\Apps CURD.exe
 C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\obj\Debug\Apps CURD.pdb
-C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\obj\Debug\Apps_CURD.Form4InsertBarang.resources
 C:\Users\ragil\OneDrive\Documents\Project00\Apps CURD\obj\Debug\Apps_CURD.FormInsertBarang.resources

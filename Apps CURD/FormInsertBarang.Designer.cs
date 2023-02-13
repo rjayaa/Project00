@@ -212,12 +212,14 @@
             // 
             // DataGridBarang
             // 
+            this.DataGridBarang.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.DataGridBarang.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.DataGridBarang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DataGridBarang.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.DataGridBarang.Location = new System.Drawing.Point(0, 255);
+            this.DataGridBarang.Location = new System.Drawing.Point(0, 232);
             this.DataGridBarang.Name = "DataGridBarang";
-            this.DataGridBarang.Size = new System.Drawing.Size(892, 222);
+            this.DataGridBarang.Size = new System.Drawing.Size(892, 245);
             this.DataGridBarang.TabIndex = 74;
             this.DataGridBarang.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ViewEventHandler);
             // 
