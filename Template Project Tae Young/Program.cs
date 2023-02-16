@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Apps_CURD;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Apps_CURD
+namespace Template_Project_Tae_Young
 {
     internal static class Program
     {

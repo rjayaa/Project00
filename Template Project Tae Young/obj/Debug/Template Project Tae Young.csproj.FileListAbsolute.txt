@@ -1,0 +1,34 @@
+C:\Users\titus\Desktop\Template Project Tae Young\bin\Debug\Template Project Tae Young.exe.config
+C:\Users\titus\Desktop\Template Project Tae Young\bin\Debug\Template Project Tae Young.exe
+C:\Users\titus\Desktop\Template Project Tae Young\bin\Debug\Template Project Tae Young.pdb
+C:\Users\titus\Desktop\Template Project Tae Young\obj\Debug\Template Project Tae Young.csproj.AssemblyReference.cache
+C:\Users\titus\Desktop\Template Project Tae Young\obj\Debug\Template Project Tae Young.csproj.SuggestedBindingRedirects.cache
+C:\Users\titus\Desktop\Template Project Tae Young\obj\Debug\Apps_CURD.Form2Menu.resources
+C:\Users\titus\Desktop\Template Project Tae Young\obj\Debug\Template_Project_Tae_Young.Form1Login.resources
+C:\Users\titus\Desktop\Template Project Tae Young\obj\Debug\Template_Project_Tae_Young.Form3Perusahaan.resources
+C:\Users\titus\Desktop\Template Project Tae Young\obj\Debug\Template_Project_Tae_Young.Properties.Resources.resources
+C:\Users\titus\Desktop\Template Project Tae Young\obj\Debug\Template Project Tae Young.csproj.GenerateResource.cache
+C:\Users\titus\Desktop\Template Project Tae Young\obj\Debug\Template Project Tae Young.csproj.CoreCompileInputs.cache
+C:\Users\titus\Desktop\Template Project Tae Young\obj\Debug\Template Project Tae Young.exe
+C:\Users\titus\Desktop\Template Project Tae Young\obj\Debug\Template Project Tae Young.pdb
+C:\Users\titus\Desktop\Template Project Tae Young\obj\Debug\Template_Project_Tae_Young.Form4Barang.resources
+C:\Users\titus\Desktop\Template Project Tae Young\obj\Debug\Template_Project_Tae_Young.Form5HargaBarang.resources
+C:\Users\titus\Desktop\Template Project Tae Young\obj\Debug\Template_Project_Tae_Young.Form6Transaksi.resources
+C:\Users\titus\Desktop\Template Project Tae Young\obj\Debug\Template_Project_Tae_Young.Form7TransaksiBarang.resources
+C:\Users\ragil\OneDrive\Documents\Template Project Tae Young\Template Project Tae Young\obj\Debug\Template Project Tae Young.csproj.AssemblyReference.cache
+C:\Users\ragil\OneDrive\Documents\Template Project Tae Young\Template Project Tae Young\obj\Debug\Template Project Tae Young.csproj.SuggestedBindingRedirects.cache
+C:\Users\ragil\OneDrive\Documents\Template Project Tae Young\Template Project Tae Young\obj\Debug\Apps_CURD.Form2Menu.resources
+C:\Users\ragil\OneDrive\Documents\Template Project Tae Young\Template Project Tae Young\obj\Debug\Template_Project_Tae_Young.Form1Login.resources
+C:\Users\ragil\OneDrive\Documents\Template Project Tae Young\Template Project Tae Young\obj\Debug\Template_Project_Tae_Young.Form3Perusahaan.resources
+C:\Users\ragil\OneDrive\Documents\Template Project Tae Young\Template Project Tae Young\obj\Debug\Template_Project_Tae_Young.Form4Barang.resources
+C:\Users\ragil\OneDrive\Documents\Template Project Tae Young\Template Project Tae Young\obj\Debug\Template_Project_Tae_Young.Form5HargaBarang.resources
+C:\Users\ragil\OneDrive\Documents\Template Project Tae Young\Template Project Tae Young\obj\Debug\Template_Project_Tae_Young.Form6Transaksi.resources
+C:\Users\ragil\OneDrive\Documents\Template Project Tae Young\Template Project Tae Young\obj\Debug\Template_Project_Tae_Young.Form7TransaksiBarang.resources
+C:\Users\ragil\OneDrive\Documents\Template Project Tae Young\Template Project Tae Young\obj\Debug\Template_Project_Tae_Young.Properties.Resources.resources
+C:\Users\ragil\OneDrive\Documents\Template Project Tae Young\Template Project Tae Young\obj\Debug\Template Project Tae Young.csproj.GenerateResource.cache
+C:\Users\ragil\OneDrive\Documents\Template Project Tae Young\Template Project Tae Young\obj\Debug\Template Project Tae Young.csproj.CoreCompileInputs.cache
+C:\Users\ragil\OneDrive\Documents\Template Project Tae Young\Template Project Tae Young\obj\Debug\Template Project Tae Young.exe
+C:\Users\ragil\OneDrive\Documents\Template Project Tae Young\Template Project Tae Young\obj\Debug\Template Project Tae Young.pdb
+C:\Users\ragil\OneDrive\Documents\Template Project Tae Young\Template Project Tae Young\bin\Debug\Template Project Tae Young.exe.config
+C:\Users\ragil\OneDrive\Documents\Template Project Tae Young\Template Project Tae Young\bin\Debug\Template Project Tae Young.exe
+C:\Users\ragil\OneDrive\Documents\Template Project Tae Young\Template Project Tae Young\bin\Debug\Template Project Tae Young.pdb
