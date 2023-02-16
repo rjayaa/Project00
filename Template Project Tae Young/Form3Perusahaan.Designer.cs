@@ -29,42 +29,42 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtNama = new System.Windows.Forms.TextBox();
+            this.txtNpwp = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtKontak1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtKontak2 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.txtAlamat = new System.Windows.Forms.RichTextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnInsert = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnClear = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtAlamat2 = new System.Windows.Forms.RichTextBox();
+            this.txtKontakv2 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtKontakv1 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtNpwp2 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtNama2 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.DataGridView = new System.Windows.Forms.DataGridView();
             this.button6 = new System.Windows.Forms.Button();
+            this.txtID = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.DataGridPerusahaan = new System.Windows.Forms.DataGridView();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridPerusahaan)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -76,19 +76,19 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Nama Perusahaan";
             // 
-            // textBox1
+            // txtNama
             // 
-            this.textBox1.Location = new System.Drawing.Point(134, 94);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(212, 20);
-            this.textBox1.TabIndex = 1;
+            this.txtNama.Location = new System.Drawing.Point(134, 94);
+            this.txtNama.Name = "txtNama";
+            this.txtNama.Size = new System.Drawing.Size(212, 20);
+            this.txtNama.TabIndex = 1;
             // 
-            // textBox2
+            // txtNpwp
             // 
-            this.textBox2.Location = new System.Drawing.Point(134, 120);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(212, 20);
-            this.textBox2.TabIndex = 3;
+            this.txtNpwp.Location = new System.Drawing.Point(134, 120);
+            this.txtNpwp.Name = "txtNpwp";
+            this.txtNpwp.Size = new System.Drawing.Size(212, 20);
+            this.txtNpwp.TabIndex = 3;
             // 
             // label2
             // 
@@ -99,12 +99,12 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "NPWP";
             // 
-            // textBox3
+            // txtKontak1
             // 
-            this.textBox3.Location = new System.Drawing.Point(25, 165);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(148, 20);
-            this.textBox3.TabIndex = 5;
+            this.txtKontak1.Location = new System.Drawing.Point(25, 165);
+            this.txtKontak1.Name = "txtKontak1";
+            this.txtKontak1.Size = new System.Drawing.Size(148, 20);
+            this.txtKontak1.TabIndex = 5;
             // 
             // label3
             // 
@@ -115,12 +115,12 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Kontak 1 Perusahaan";
             // 
-            // textBox4
+            // txtKontak2
             // 
-            this.textBox4.Location = new System.Drawing.Point(198, 165);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(148, 20);
-            this.textBox4.TabIndex = 7;
+            this.txtKontak2.Location = new System.Drawing.Point(198, 165);
+            this.txtKontak2.Name = "txtKontak2";
+            this.txtKontak2.Size = new System.Drawing.Size(148, 20);
+            this.txtKontak2.TabIndex = 7;
             // 
             // label4
             // 
@@ -131,13 +131,13 @@
             this.label4.TabIndex = 6;
             this.label4.Text = "Kontak 2 Perusahaan";
             // 
-            // richTextBox1
+            // txtAlamat
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(25, 224);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(321, 96);
-            this.richTextBox1.TabIndex = 8;
-            this.richTextBox1.Text = "";
+            this.txtAlamat.Location = new System.Drawing.Point(25, 224);
+            this.txtAlamat.Name = "txtAlamat";
+            this.txtAlamat.Size = new System.Drawing.Size(321, 96);
+            this.txtAlamat.TabIndex = 8;
+            this.txtAlamat.Text = "";
             // 
             // label5
             // 
@@ -157,41 +157,45 @@
             this.label6.TabIndex = 10;
             this.label6.Text = "PT Tae Young Abadi Jaya   -   Perusahaan";
             // 
-            // button1
+            // btnInsert
             // 
-            this.button1.Location = new System.Drawing.Point(271, 338);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "Insert";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnInsert.Location = new System.Drawing.Point(271, 338);
+            this.btnInsert.Name = "btnInsert";
+            this.btnInsert.Size = new System.Drawing.Size(75, 23);
+            this.btnInsert.TabIndex = 11;
+            this.btnInsert.Text = "Insert";
+            this.btnInsert.UseVisualStyleBackColor = true;
+            this.btnInsert.Click += new System.EventHandler(this.btnInsert_Click_1);
             // 
-            // button2
+            // btnUpdate
             // 
-            this.button2.Location = new System.Drawing.Point(190, 338);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "Update";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnUpdate.Location = new System.Drawing.Point(190, 338);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(75, 23);
+            this.btnUpdate.TabIndex = 12;
+            this.btnUpdate.Text = "Update";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
-            // button3
+            // btnDelete
             // 
-            this.button3.Location = new System.Drawing.Point(340, 276);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(99, 23);
-            this.button3.TabIndex = 13;
-            this.button3.Text = "Delete";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnDelete.Location = new System.Drawing.Point(340, 276);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(99, 23);
+            this.btnDelete.TabIndex = 13;
+            this.btnDelete.Text = "Delete";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
-            // button4
+            // btnClear
             // 
-            this.button4.Location = new System.Drawing.Point(28, 338);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 14;
-            this.button4.Text = "Clear";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnClear.Location = new System.Drawing.Point(28, 338);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(75, 23);
+            this.btnClear.TabIndex = 14;
+            this.btnClear.Text = "Clear";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // button5
             // 
@@ -220,20 +224,20 @@
             this.label7.TabIndex = 26;
             this.label7.Text = "Alamat Perusahaan";
             // 
-            // richTextBox2
+            // txtAlamat2
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(408, 224);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(321, 96);
-            this.richTextBox2.TabIndex = 25;
-            this.richTextBox2.Text = "";
+            this.txtAlamat2.Location = new System.Drawing.Point(408, 224);
+            this.txtAlamat2.Name = "txtAlamat2";
+            this.txtAlamat2.Size = new System.Drawing.Size(321, 96);
+            this.txtAlamat2.TabIndex = 25;
+            this.txtAlamat2.Text = "";
             // 
-            // textBox5
+            // txtKontakv2
             // 
-            this.textBox5.Location = new System.Drawing.Point(581, 165);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(148, 20);
-            this.textBox5.TabIndex = 24;
+            this.txtKontakv2.Location = new System.Drawing.Point(581, 165);
+            this.txtKontakv2.Name = "txtKontakv2";
+            this.txtKontakv2.Size = new System.Drawing.Size(148, 20);
+            this.txtKontakv2.TabIndex = 24;
             // 
             // label8
             // 
@@ -244,12 +248,12 @@
             this.label8.TabIndex = 23;
             this.label8.Text = "Kontak 2 Perusahaan";
             // 
-            // textBox6
+            // txtKontakv1
             // 
-            this.textBox6.Location = new System.Drawing.Point(408, 165);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(148, 20);
-            this.textBox6.TabIndex = 22;
+            this.txtKontakv1.Location = new System.Drawing.Point(408, 165);
+            this.txtKontakv1.Name = "txtKontakv1";
+            this.txtKontakv1.Size = new System.Drawing.Size(148, 20);
+            this.txtKontakv1.TabIndex = 22;
             // 
             // label9
             // 
@@ -260,12 +264,12 @@
             this.label9.TabIndex = 21;
             this.label9.Text = "Kontak 1 Perusahaan";
             // 
-            // textBox7
+            // txtNpwp2
             // 
-            this.textBox7.Location = new System.Drawing.Point(517, 120);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(212, 20);
-            this.textBox7.TabIndex = 20;
+            this.txtNpwp2.Location = new System.Drawing.Point(517, 120);
+            this.txtNpwp2.Name = "txtNpwp2";
+            this.txtNpwp2.Size = new System.Drawing.Size(212, 20);
+            this.txtNpwp2.TabIndex = 20;
             // 
             // label10
             // 
@@ -276,12 +280,12 @@
             this.label10.TabIndex = 19;
             this.label10.Text = "NPWP";
             // 
-            // textBox8
+            // txtNama2
             // 
-            this.textBox8.Location = new System.Drawing.Point(517, 94);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(212, 20);
-            this.textBox8.TabIndex = 18;
+            this.txtNama2.Location = new System.Drawing.Point(517, 94);
+            this.txtNama2.Name = "txtNama2";
+            this.txtNama2.Size = new System.Drawing.Size(212, 20);
+            this.txtNama2.TabIndex = 18;
             // 
             // label11
             // 
@@ -295,15 +299,31 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.button6);
-            this.groupBox2.Controls.Add(this.textBox9);
+            this.groupBox2.Controls.Add(this.txtID);
             this.groupBox2.Controls.Add(this.label12);
-            this.groupBox2.Controls.Add(this.button3);
+            this.groupBox2.Controls.Add(this.btnDelete);
             this.groupBox2.Location = new System.Drawing.Point(395, 62);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(445, 324);
             this.groupBox2.TabIndex = 31;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "View";
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(259, 276);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 33;
+            this.button6.Text = "Cancel";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // txtID
+            // 
+            this.txtID.Location = new System.Drawing.Point(340, 58);
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(99, 20);
+            this.txtID.TabIndex = 33;
             // 
             // label12
             // 
@@ -314,35 +334,20 @@
             this.label12.TabIndex = 32;
             this.label12.Text = "ID Perusahaan";
             // 
-            // textBox9
+            // DataGridPerusahaan
             // 
-            this.textBox9.Location = new System.Drawing.Point(340, 58);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(99, 20);
-            this.textBox9.TabIndex = 33;
-            // 
-            // DataGridView
-            // 
-            this.DataGridView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.DataGridPerusahaan.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.DataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.DataGridView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
-            this.DataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DataGridView.GridColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.DataGridView.Location = new System.Drawing.Point(12, 419);
-            this.DataGridView.Name = "DataGridView";
-            this.DataGridView.Size = new System.Drawing.Size(828, 321);
-            this.DataGridView.TabIndex = 32;
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(259, 276);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 33;
-            this.button6.Text = "Cancel";
-            this.button6.UseVisualStyleBackColor = true;
+            this.DataGridPerusahaan.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.DataGridPerusahaan.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
+            this.DataGridPerusahaan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DataGridPerusahaan.GridColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.DataGridPerusahaan.Location = new System.Drawing.Point(12, 419);
+            this.DataGridPerusahaan.Name = "DataGridPerusahaan";
+            this.DataGridPerusahaan.Size = new System.Drawing.Size(828, 321);
+            this.DataGridPerusahaan.TabIndex = 32;
+            this.DataGridPerusahaan.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridPerusahaan_CellClick);
             // 
             // textBox10
             // 
@@ -376,39 +381,40 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.DataGridView);
+            this.Controls.Add(this.DataGridPerusahaan);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.richTextBox2);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtAlamat2);
+            this.Controls.Add(this.txtKontakv2);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.txtKontakv1);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.txtNpwp2);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.txtNama2);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnClear);
+            this.Controls.Add(this.btnUpdate);
+            this.Controls.Add(this.btnInsert);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.richTextBox1);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txtAlamat);
+            this.Controls.Add(this.txtKontak2);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtKontak1);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtNpwp);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtNama);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form3Perusahaan";
             this.Text = "Perusahaan";
+            this.Load += new System.EventHandler(this.Form3Perusahaan_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridPerusahaan)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -417,36 +423,36 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtNama;
+        private System.Windows.Forms.TextBox txtNpwp;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtKontak1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtKontak2;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox txtAlamat;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnInsert;
+        private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.RichTextBox richTextBox2;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.RichTextBox txtAlamat2;
+        private System.Windows.Forms.TextBox txtKontakv2;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtKontakv1;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtNpwp2;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox txtNama2;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtID;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.DataGridView DataGridView;
+        private System.Windows.Forms.DataGridView DataGridPerusahaan;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.Label label13;
