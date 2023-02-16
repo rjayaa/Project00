@@ -60,9 +60,9 @@
             this.txtID = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.DataGridPerusahaan = new System.Windows.Forms.DataGridView();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.txtSearch = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox = new System.Windows.Forms.ComboBox();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridPerusahaan)).BeginInit();
             this.SuspendLayout();
@@ -349,12 +349,13 @@
             this.DataGridPerusahaan.TabIndex = 32;
             this.DataGridPerusahaan.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridPerusahaan_CellClick);
             // 
-            // textBox10
+            // txtSearch
             // 
-            this.textBox10.Location = new System.Drawing.Point(562, 392);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(278, 20);
-            this.textBox10.TabIndex = 33;
+            this.txtSearch.Location = new System.Drawing.Point(562, 392);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(278, 20);
+            this.txtSearch.TabIndex = 33;
+           
             // 
             // label13
             // 
@@ -365,22 +366,28 @@
             this.label13.TabIndex = 34;
             this.label13.Text = "Search";
             // 
-            // comboBox1
+            // comboBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(435, 392);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 35;
+            this.comboBox.FormattingEnabled = true;
+            this.comboBox.Items.AddRange(new object[] {
+            "Nama Perusahaan",
+            "NPWP",
+            "Kontak",
+            "Alamat Perusahaan"});
+            this.comboBox.Location = new System.Drawing.Point(435, 392);
+            this.comboBox.Name = "comboBox";
+            this.comboBox.Size = new System.Drawing.Size(121, 21);
+            this.comboBox.TabIndex = 35;
+            this.comboBox.SelectedIndexChanged += new System.EventHandler(this.comboBox_SelectedIndexChanged);
             // 
             // Form3Perusahaan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(852, 752);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.comboBox);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.DataGridPerusahaan);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.txtAlamat2);
@@ -454,8 +461,8 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.DataGridView DataGridPerusahaan;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBox;
     }
 }

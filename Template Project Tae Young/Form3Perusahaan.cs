@@ -244,5 +244,21 @@ namespace Template_Project_Tae_Young
         {
             DeleteData();
         }
+
+    
+
+        private void comboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string test123 = txtSearch.Text;
+            Koneksi.Open();
+            MySqlCommand cmd = new MySqlCommand("SELECT * FROM Perusahaan WHERE Nama_Perusahaan LIKE Concat('%' ,@test123, '%')", Koneksi);
+            cmd.Parameters.AddWithValue("test123",txtSearch.Text);
+            MySqlDataAdapter da = new MySqlDataAdapter();
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+
+            DataGridPerusahaan.DataSource = dt;
+            
+        }
     }
 }
