@@ -355,7 +355,7 @@
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(278, 20);
             this.txtSearch.TabIndex = 33;
-           
+            this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
             // 
             // label13
             // 
@@ -370,6 +370,7 @@
             // 
             this.comboBox.FormattingEnabled = true;
             this.comboBox.Items.AddRange(new object[] {
+            "",
             "Nama Perusahaan",
             "NPWP",
             "Kontak",
@@ -378,7 +379,6 @@
             this.comboBox.Name = "comboBox";
             this.comboBox.Size = new System.Drawing.Size(121, 21);
             this.comboBox.TabIndex = 35;
-            this.comboBox.SelectedIndexChanged += new System.EventHandler(this.comboBox_SelectedIndexChanged);
             // 
             // Form3Perusahaan
             // 

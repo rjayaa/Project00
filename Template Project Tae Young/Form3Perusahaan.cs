@@ -245,20 +245,29 @@ namespace Template_Project_Tae_Young
             DeleteData();
         }
 
-    
 
-        private void comboBox_SelectedIndexChanged(object sender, EventArgs e)
+        
+
+        public void DisplaySearch()
         {
-            string test123 = txtSearch.Text;
-            Koneksi.Open();
-            MySqlCommand cmd = new MySqlCommand("SELECT * FROM Perusahaan WHERE Nama_Perusahaan LIKE Concat('%' ,@test123, '%')", Koneksi);
-            cmd.Parameters.AddWithValue("test123",txtSearch.Text);
-            MySqlDataAdapter da = new MySqlDataAdapter();
-            DataTable dt = new DataTable();
-            da.Fill(dt);
-
-            DataGridPerusahaan.DataSource = dt;
             
+                Koneksi.Open();
+            if(comboBox.Text == "Nama Perusahaan")
+            {
+                string query = "SELECT ID_Perusahaan, Nama_Perusahaan,NPWP_Perusahaan, Kontak_1_Perusahaan, Kontak_2_Perusahaan, Alamat_Perusahaan FROM Perusahaan WHERE Nama_Perusahaan LIKE '" + txtSearch.Text + "%'";
+                MySqlCommand cmd = new MySqlCommand(query,Koneksi);
+                MySqlDataReader reader = cmd.ExecuteReader();
+                DataTable st = new DataTable();
+                st.Load(reader);
+                DataGridPerusahaan.DataSource = st;
+                Koneksi.Close();
+            }
+            
+        }
+
+        private void txtSearch_TextChanged(object sender, EventArgs e)
+        {
+            DisplaySearch();
         }
     }
 }
