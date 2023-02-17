@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using Org.BouncyCastle.Math.Field;
+
 namespace Template_Project_Tae_Young
 {
     public partial class Form3Perusahaan : Form
@@ -261,8 +263,37 @@ namespace Template_Project_Tae_Young
                 st.Load(reader);
                 DataGridPerusahaan.DataSource = st;
                 Koneksi.Close();
+            }else if (comboBox.Text == "NPWP")
+            {
+                string query = "SELECT ID_Perusahaan, Nama_Perusahaan,NPWP_Perusahaan, Kontak_1_Perusahaan, Kontak_2_Perusahaan, Alamat_Perusahaan FROM Perusahaan WHERE NPWP_Perusahaan LIKE '" + txtSearch.Text + "%'";
+                MySqlCommand cmd = new MySqlCommand(query, Koneksi);
+                MySqlDataReader reader = cmd.ExecuteReader();
+                DataTable st = new DataTable();
+                st.Load(reader);
+                DataGridPerusahaan.DataSource = st;
+                Koneksi.Close();
             }
-            
+            else if (comboBox.Text == "Kontak")
+            {
+                string query = "SELECT ID_Perusahaan, Nama_Perusahaan,NPWP_Perusahaan, Kontak_1_Perusahaan, Kontak_2_Perusahaan, Alamat_Perusahaan FROM Perusahaan WHERE Kontak_1_Perusahaan OR Kontak_2_Perusahaan LIKE '" + txtSearch.Text + "%'";
+                MySqlCommand cmd = new MySqlCommand(query, Koneksi);
+                MySqlDataReader reader = cmd.ExecuteReader();
+                DataTable st = new DataTable();
+                st.Load(reader);
+                DataGridPerusahaan.DataSource = st;
+                Koneksi.Close();
+            }
+            else if (comboBox.Text == "Alamat Perusahaan")
+            {
+                string query = "SELECT ID_Perusahaan, Nama_Perusahaan,NPWP_Perusahaan, Kontak_1_Perusahaan, Kontak_2_Perusahaan, Alamat_Perusahaan FROM Perusahaan WHERE Alamat_Perusahaan LIKE '" + txtSearch.Text + "%'";
+                MySqlCommand cmd = new MySqlCommand(query, Koneksi);
+                MySqlDataReader reader = cmd.ExecuteReader();
+                DataTable st = new DataTable();
+                st.Load(reader);
+                DataGridPerusahaan.DataSource = st;
+                Koneksi.Close();
+            }
+
         }
 
         private void txtSearch_TextChanged(object sender, EventArgs e)
