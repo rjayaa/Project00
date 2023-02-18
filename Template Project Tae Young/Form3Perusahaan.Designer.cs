@@ -347,7 +347,7 @@
             this.DataGridPerusahaan.Name = "DataGridPerusahaan";
             this.DataGridPerusahaan.Size = new System.Drawing.Size(828, 321);
             this.DataGridPerusahaan.TabIndex = 32;
-            this.DataGridPerusahaan.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridPerusahaan_CellClick);
+            this.DataGridPerusahaan.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridPerusahaan_CellContentClick);
             // 
             // txtSearch
             // 
@@ -370,7 +370,6 @@
             // 
             this.comboBox.FormattingEnabled = true;
             this.comboBox.Items.AddRange(new object[] {
-            "",
             "Nama Perusahaan",
             "NPWP",
             "Kontak",

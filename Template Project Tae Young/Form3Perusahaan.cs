@@ -41,9 +41,11 @@ namespace Template_Project_Tae_Young
 
             DataGridViewButtonColumn colEdit    = new DataGridViewButtonColumn();
             colEdit.UseColumnTextForButtonValue = true                          ;
+            colEdit.Name = "";
             colEdit.Text                        = "View"                        ;
-            colEdit.Name                        = ""                            ;
             DataGridPerusahaan.Columns.Add(colEdit)                             ;
+            DataGridPerusahaan.CellClick += new DataGridViewCellEventHandler(DataGridPerusahaan_CellContentClick);
+            
 
             DataGridPerusahaan.Columns[0].ReadOnly  = true;
             DataGridPerusahaan.Columns[1].ReadOnly  = true;
@@ -109,6 +111,8 @@ namespace Template_Project_Tae_Young
             txtKontakv1.Text = "";
             txtKontakv2.Text = "";
             txtAlamat2.Text = "";
+            txtSearch.Text = string.Empty;
+            comboBox.Text = string.Empty;
         }
         public void InsertData ()
         {
@@ -142,20 +146,22 @@ namespace Template_Project_Tae_Young
         }
 
         public void ViewData(){
-
+            
+            
             int selectedRow = DataGridPerusahaan.CurrentCell.RowIndex;
-            txtID.Text       = DataGridPerusahaan.Rows[selectedRow].Cells[0].Value.ToString();
             txtNama.Text     = DataGridPerusahaan.Rows[selectedRow].Cells[1].Value.ToString();
             txtNpwp.Text     = DataGridPerusahaan.Rows[selectedRow].Cells[2].Value.ToString();
             txtKontak1.Text  = DataGridPerusahaan.Rows[selectedRow].Cells[3].Value.ToString();
             txtKontak2.Text  = DataGridPerusahaan.Rows[selectedRow].Cells[4].Value.ToString();
             txtAlamat.Text   = DataGridPerusahaan.Rows[selectedRow].Cells[5].Value.ToString();
 
+            txtID.Text       = DataGridPerusahaan.Rows[selectedRow].Cells[0].Value.ToString();
             txtNama2.Text    = DataGridPerusahaan.Rows[selectedRow].Cells[1].Value.ToString();
             txtNpwp2.Text    = DataGridPerusahaan.Rows[selectedRow].Cells[2].Value.ToString();
             txtKontakv1.Text = DataGridPerusahaan.Rows[selectedRow].Cells[3].Value.ToString();
             txtKontakv2.Text = DataGridPerusahaan.Rows[selectedRow].Cells[4].Value.ToString();
             txtAlamat2.Text  = DataGridPerusahaan.Rows[selectedRow].Cells[5].Value.ToString();
+
         }
         
         public void UpdateData(){
@@ -216,16 +222,60 @@ namespace Template_Project_Tae_Young
             fillData        ();
             ClearInsert   ();
         }
+        public void DisplaySearch()
+        {
+            Koneksi.Open();
+            if (comboBox.Text == "Nama Perusahaan")
+            {
+                string query = "SELECT ID_Perusahaan, Nama_Perusahaan,NPWP_Perusahaan, Kontak_1_Perusahaan, Kontak_2_Perusahaan, Alamat_Perusahaan FROM Perusahaan WHERE Nama_Perusahaan LIKE '" + txtSearch.Text + "%'";
+                MySqlCommand cmd = new MySqlCommand(query, Koneksi);
+                MySqlDataReader reader = cmd.ExecuteReader();
+                DataTable st = new DataTable();
+                st.Load(reader);
+                DataGridPerusahaan.DataSource = st;
+                Koneksi.Close();
+
+            }
+            else if (comboBox.Text == "NPWP")
+            {
+                string query = "SELECT ID_Perusahaan, Nama_Perusahaan,NPWP_Perusahaan, Kontak_1_Perusahaan, Kontak_2_Perusahaan, Alamat_Perusahaan FROM Perusahaan WHERE NPWP_Perusahaan LIKE '" + txtSearch.Text + "%'";
+                MySqlCommand cmd = new MySqlCommand(query, Koneksi);
+                MySqlDataReader reader = cmd.ExecuteReader();
+                DataTable st = new DataTable();
+                st.Load(reader);
+                DataGridPerusahaan.DataSource = st;
+
+            }
+            else if (comboBox.Text == "Kontak")
+            {
+                string query = "SELECT ID_Perusahaan, Nama_Perusahaan,NPWP_Perusahaan, Kontak_1_Perusahaan, Kontak_2_Perusahaan, Alamat_Perusahaan FROM Perusahaan WHERE Kontak_1_Perusahaan OR Kontak_2_Perusahaan LIKE '" + txtSearch.Text + "%'";
+                MySqlCommand cmd = new MySqlCommand(query, Koneksi);
+                MySqlDataReader reader = cmd.ExecuteReader();
+                DataTable st = new DataTable();
+                st.Load(reader);
+                DataGridPerusahaan.DataSource = st;
+
+            }
+            else if (comboBox.Text == "Alamat Perusahaan")
+            {
+                string query = "SELECT ID_Perusahaan, Nama_Perusahaan,NPWP_Perusahaan, Kontak_1_Perusahaan, Kontak_2_Perusahaan, Alamat_Perusahaan FROM Perusahaan WHERE Alamat_Perusahaan LIKE '" + txtSearch.Text + "%'";
+                MySqlCommand cmd = new MySqlCommand(query, Koneksi);
+                MySqlDataReader reader = cmd.ExecuteReader();
+                DataTable st = new DataTable();
+                st.Load(reader);
+                DataGridPerusahaan.DataSource = st;
+
+            }
+            Koneksi.Close();
+
+
+        }
+
+
         private void Form3Perusahaan_Load(object sender, EventArgs e)
         {
             fillData();
         }
-        private void DataGridPerusahaan_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            if(e.ColumnIndex == 6) ViewData ();
-        }
-
-
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
@@ -247,58 +297,18 @@ namespace Template_Project_Tae_Young
             DeleteData();
         }
 
-
         
-
-        public void DisplaySearch()
-        {
-            
-                Koneksi.Open();
-            if(comboBox.Text == "Nama Perusahaan")
-            {
-                string query = "SELECT ID_Perusahaan, Nama_Perusahaan,NPWP_Perusahaan, Kontak_1_Perusahaan, Kontak_2_Perusahaan, Alamat_Perusahaan FROM Perusahaan WHERE Nama_Perusahaan LIKE '" + txtSearch.Text + "%'";
-                MySqlCommand cmd = new MySqlCommand(query,Koneksi);
-                MySqlDataReader reader = cmd.ExecuteReader();
-                DataTable st = new DataTable();
-                st.Load(reader);
-                DataGridPerusahaan.DataSource = st;
-                Koneksi.Close();
-            }else if (comboBox.Text == "NPWP")
-            {
-                string query = "SELECT ID_Perusahaan, Nama_Perusahaan,NPWP_Perusahaan, Kontak_1_Perusahaan, Kontak_2_Perusahaan, Alamat_Perusahaan FROM Perusahaan WHERE NPWP_Perusahaan LIKE '" + txtSearch.Text + "%'";
-                MySqlCommand cmd = new MySqlCommand(query, Koneksi);
-                MySqlDataReader reader = cmd.ExecuteReader();
-                DataTable st = new DataTable();
-                st.Load(reader);
-                DataGridPerusahaan.DataSource = st;
-                Koneksi.Close();
-            }
-            else if (comboBox.Text == "Kontak")
-            {
-                string query = "SELECT ID_Perusahaan, Nama_Perusahaan,NPWP_Perusahaan, Kontak_1_Perusahaan, Kontak_2_Perusahaan, Alamat_Perusahaan FROM Perusahaan WHERE Kontak_1_Perusahaan OR Kontak_2_Perusahaan LIKE '" + txtSearch.Text + "%'";
-                MySqlCommand cmd = new MySqlCommand(query, Koneksi);
-                MySqlDataReader reader = cmd.ExecuteReader();
-                DataTable st = new DataTable();
-                st.Load(reader);
-                DataGridPerusahaan.DataSource = st;
-                Koneksi.Close();
-            }
-            else if (comboBox.Text == "Alamat Perusahaan")
-            {
-                string query = "SELECT ID_Perusahaan, Nama_Perusahaan,NPWP_Perusahaan, Kontak_1_Perusahaan, Kontak_2_Perusahaan, Alamat_Perusahaan FROM Perusahaan WHERE Alamat_Perusahaan LIKE '" + txtSearch.Text + "%'";
-                MySqlCommand cmd = new MySqlCommand(query, Koneksi);
-                MySqlDataReader reader = cmd.ExecuteReader();
-                DataTable st = new DataTable();
-                st.Load(reader);
-                DataGridPerusahaan.DataSource = st;
-                Koneksi.Close();
-            }
-
-        }
-
         private void txtSearch_TextChanged(object sender, EventArgs e)
         {
-            DisplaySearch();
+              DisplaySearch();
+        }
+
+        private void DataGridPerusahaan_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if(e.ColumnIndex == DataGridPerusahaan.Columns[""].Index && e.RowIndex >= 0)
+            {
+                ViewData();
+            }
         }
     }
 }
