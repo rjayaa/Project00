@@ -30,26 +30,26 @@
         {
             this.button5 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtNamaBarang = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.txtUpdate = new System.Windows.Forms.Button();
+            this.txtInsert = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.txtIDBarang = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.txtDelete = new System.Windows.Forms.Button();
+            this.txtNamaBarang2 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.DataGridBarang = new System.Windows.Forms.DataGridView();
+            this.comboBox = new System.Windows.Forms.ComboBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.txtSearch = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridBarang)).BeginInit();
             this.SuspendLayout();
             // 
             // button5
@@ -70,12 +70,12 @@
             this.label6.TabIndex = 16;
             this.label6.Text = "PT Tae Young Abadi Jaya   -   Barang";
             // 
-            // textBox1
+            // txtNamaBarang
             // 
-            this.textBox1.Location = new System.Drawing.Point(84, 34);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(212, 20);
-            this.textBox1.TabIndex = 19;
+            this.txtNamaBarang.Location = new System.Drawing.Point(84, 34);
+            this.txtNamaBarang.Name = "txtNamaBarang";
+            this.txtNamaBarang.Size = new System.Drawing.Size(212, 20);
+            this.txtNamaBarang.TabIndex = 19;
             // 
             // label1
             // 
@@ -88,11 +88,11 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.btnClear);
+            this.groupBox1.Controls.Add(this.txtNamaBarang);
+            this.groupBox1.Controls.Add(this.txtUpdate);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.txtInsert);
             this.groupBox1.Location = new System.Drawing.Point(16, 64);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(369, 115);
@@ -100,12 +100,42 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "CRUD";
             // 
+            // btnClear
+            // 
+            this.btnClear.Location = new System.Drawing.Point(9, 77);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(75, 23);
+            this.btnClear.TabIndex = 37;
+            this.btnClear.Text = "Clear";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
+            // txtUpdate
+            // 
+            this.txtUpdate.Location = new System.Drawing.Point(207, 75);
+            this.txtUpdate.Name = "txtUpdate";
+            this.txtUpdate.Size = new System.Drawing.Size(75, 23);
+            this.txtUpdate.TabIndex = 35;
+            this.txtUpdate.Text = "Update";
+            this.txtUpdate.UseVisualStyleBackColor = true;
+            this.txtUpdate.Click += new System.EventHandler(this.txtUpdate_Click);
+            // 
+            // txtInsert
+            // 
+            this.txtInsert.Location = new System.Drawing.Point(288, 75);
+            this.txtInsert.Name = "txtInsert";
+            this.txtInsert.Size = new System.Drawing.Size(75, 23);
+            this.txtInsert.TabIndex = 34;
+            this.txtInsert.Text = "Insert";
+            this.txtInsert.UseVisualStyleBackColor = true;
+            this.txtInsert.Click += new System.EventHandler(this.txtInsert_Click);
+            // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.textBox3);
+            this.groupBox2.Controls.Add(this.txtIDBarang);
             this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.button3);
-            this.groupBox2.Controls.Add(this.textBox2);
+            this.groupBox2.Controls.Add(this.txtDelete);
+            this.groupBox2.Controls.Add(this.txtNamaBarang2);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.button6);
             this.groupBox2.Location = new System.Drawing.Point(398, 64);
@@ -115,21 +145,12 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "View";
             // 
-            // textBox2
+            // txtIDBarang
             // 
-            this.textBox2.Location = new System.Drawing.Point(84, 38);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(195, 20);
-            this.textBox2.TabIndex = 19;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 41);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 13);
-            this.label2.TabIndex = 18;
-            this.label2.Text = "Nama Barang";
+            this.txtIDBarang.Location = new System.Drawing.Point(285, 37);
+            this.txtIDBarang.Name = "txtIDBarang";
+            this.txtIDBarang.Size = new System.Drawing.Size(99, 20);
+            this.txtIDBarang.TabIndex = 21;
             // 
             // label3
             // 
@@ -140,39 +161,31 @@
             this.label3.TabIndex = 20;
             this.label3.Text = "ID Barang";
             // 
-            // textBox3
+            // txtDelete
             // 
-            this.textBox3.Location = new System.Drawing.Point(285, 37);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(99, 20);
-            this.textBox3.TabIndex = 21;
+            this.txtDelete.Location = new System.Drawing.Point(285, 77);
+            this.txtDelete.Name = "txtDelete";
+            this.txtDelete.Size = new System.Drawing.Size(99, 23);
+            this.txtDelete.TabIndex = 36;
+            this.txtDelete.Text = "Delete";
+            this.txtDelete.UseVisualStyleBackColor = true;
+            this.txtDelete.Click += new System.EventHandler(this.txtDelete_Click);
             // 
-            // button4
+            // txtNamaBarang2
             // 
-            this.button4.Location = new System.Drawing.Point(9, 77);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 37;
-            this.button4.Text = "Clear";
-            this.button4.UseVisualStyleBackColor = true;
+            this.txtNamaBarang2.Location = new System.Drawing.Point(84, 38);
+            this.txtNamaBarang2.Name = "txtNamaBarang2";
+            this.txtNamaBarang2.Size = new System.Drawing.Size(195, 20);
+            this.txtNamaBarang2.TabIndex = 19;
             // 
-            // button2
+            // label2
             // 
-            this.button2.Location = new System.Drawing.Point(207, 75);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 35;
-            this.button2.Text = "Update";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(288, 75);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 34;
-            this.button1.Text = "Insert";
-            this.button1.UseVisualStyleBackColor = true;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 41);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(72, 13);
+            this.label2.TabIndex = 18;
+            this.label2.Text = "Nama Barang";
             // 
             // button6
             // 
@@ -183,33 +196,29 @@
             this.button6.Text = "Cancel";
             this.button6.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // DataGridBarang
             // 
-            this.button3.Location = new System.Drawing.Point(285, 77);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(99, 23);
-            this.button3.TabIndex = 36;
-            this.button3.Text = "Delete";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.DataGridBarang.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 242);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(776, 154);
-            this.dataGridView1.TabIndex = 22;
+            this.DataGridBarang.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.DataGridBarang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DataGridBarang.Location = new System.Drawing.Point(12, 242);
+            this.DataGridBarang.Name = "DataGridBarang";
+            this.DataGridBarang.Size = new System.Drawing.Size(776, 154);
+            this.DataGridBarang.TabIndex = 22;
+            this.DataGridBarang.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridBarang_CellClick);
+            
             // 
-            // comboBox1
+            // comboBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(451, 197);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(101, 21);
-            this.comboBox1.TabIndex = 38;
+            this.comboBox.FormattingEnabled = true;
+            this.comboBox.Items.AddRange(new object[] {
+            "Nama Barang"});
+            this.comboBox.Location = new System.Drawing.Point(451, 197);
+            this.comboBox.Name = "comboBox";
+            this.comboBox.Size = new System.Drawing.Size(101, 21);
+            this.comboBox.TabIndex = 38;
             // 
             // label13
             // 
@@ -220,33 +229,35 @@
             this.label13.TabIndex = 37;
             this.label13.Text = "Search";
             // 
-            // textBox10
+            // txtSearch
             // 
-            this.textBox10.Location = new System.Drawing.Point(558, 197);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(230, 20);
-            this.textBox10.TabIndex = 36;
+            this.txtSearch.Location = new System.Drawing.Point(558, 197);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(230, 20);
+            this.txtSearch.TabIndex = 36;
+            this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
             // 
             // Form4Barang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 408);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.comboBox);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.txtSearch);
+            this.Controls.Add(this.DataGridBarang);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Name = "Form4Barang";
             this.Text = "Barang";
+            this.Load += new System.EventHandler(this.Form4Barang_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridBarang)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -256,22 +267,22 @@
 
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNamaBarang;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtIDBarang;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtNamaBarang2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Button txtUpdate;
+        private System.Windows.Forms.Button txtInsert;
+        private System.Windows.Forms.Button txtDelete;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.DataGridView DataGridBarang;
+        private System.Windows.Forms.ComboBox comboBox;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox txtSearch;
     }
 }
