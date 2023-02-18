@@ -127,18 +127,18 @@ namespace Template_Project_Tae_Young
         {
             int selectedRow = DataGridBarang.CurrentCell.RowIndex;
 
-            txtIDBarang.Text     = DataGridBarang.Rows[selectedRow].Cells[0].Value.ToString();
-            txtNamaBarang.Text   = DataGridBarang.Rows[selectedRow].Cells[1].Value.ToString();
-            txtNamaBarang2.Text = DataGridBarang.Rows[selectedRow].Cells[1].Value.ToString();
+            txtIDBarang.Text     = DataGridBarang.Rows[selectedRow].Cells[0+1].Value.ToString();
+            txtNamaBarang.Text   = DataGridBarang.Rows[selectedRow].Cells[1+1].Value.ToString();
+            txtNamaBarang2.Text = DataGridBarang.Rows[selectedRow].Cells[1 + 1 ].Value.ToString();
         }
 
         public void ViewData2()
         {
             int selectedRow = DataGridBarang.CurrentCell.RowIndex;
 
-            txtIDBarang.Text = DataGridBarang.Rows[selectedRow].Cells[1].Value.ToString();
-            txtNamaBarang.Text = DataGridBarang.Rows[selectedRow].Cells[2].Value.ToString();
-            txtNamaBarang2.Text = DataGridBarang.Rows[selectedRow].Cells[2].Value.ToString();
+            txtIDBarang.Text = DataGridBarang.Rows[selectedRow].Cells[0].Value.ToString();
+            txtNamaBarang.Text = DataGridBarang.Rows[selectedRow].Cells[1].Value.ToString();
+            txtNamaBarang2.Text = DataGridBarang.Rows[selectedRow].Cells[1].Value.ToString();
         }
 
         public void UpdateData()
@@ -242,20 +242,22 @@ namespace Template_Project_Tae_Young
             ClearInsert();
         }
 
+        private void DataGridBarang_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            
+            if (e.ColumnIndex == 2)
+            {
+                ViewData2();
+            }
+        }
         private void DataGridBarang_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
             {
                 ViewData();
             }
-           
+
         }
 
-        private void DataGridBarang_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            if(e.ColumnIndex == DataGridBarang.Columns[""].Index && e.RowIndex >= 0) {
-                ViewData2();
-           }
-        }
     }
 }
