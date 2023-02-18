@@ -44,7 +44,7 @@ namespace Template_Project_Tae_Young
             colEdit.Name = "";
             colEdit.Text                        = "View"                        ;
             DataGridPerusahaan.Columns.Add(colEdit)                             ;
-            DataGridPerusahaan.CellClick += new DataGridViewCellEventHandler(DataGridPerusahaan_CellContentClick);
+            
             
 
             DataGridPerusahaan.Columns[0].ReadOnly  = true;
@@ -148,20 +148,38 @@ namespace Template_Project_Tae_Young
         public void ViewData(){
             
             
+            
             int selectedRow = DataGridPerusahaan.CurrentCell.RowIndex;
-            txtNama.Text     = DataGridPerusahaan.Rows[selectedRow].Cells[1].Value.ToString();
-            txtNpwp.Text     = DataGridPerusahaan.Rows[selectedRow].Cells[2].Value.ToString();
-            txtKontak1.Text  = DataGridPerusahaan.Rows[selectedRow].Cells[3].Value.ToString();
-            txtKontak2.Text  = DataGridPerusahaan.Rows[selectedRow].Cells[4].Value.ToString();
-            txtAlamat.Text   = DataGridPerusahaan.Rows[selectedRow].Cells[5].Value.ToString();
+            txtNama.Text = DataGridPerusahaan.Rows[selectedRow].Cells[1 + 1].Value.ToString();
+            txtNpwp.Text = DataGridPerusahaan.Rows[selectedRow].Cells[2 + 1].Value.ToString();
+            txtKontak1.Text = DataGridPerusahaan.Rows[selectedRow].Cells[3 + 1].Value.ToString();
+            txtKontak2.Text = DataGridPerusahaan.Rows[selectedRow].Cells[4 + 1].Value.ToString();
+            txtAlamat.Text = DataGridPerusahaan.Rows[selectedRow].Cells[5 + 1].Value.ToString();
 
-            txtID.Text       = DataGridPerusahaan.Rows[selectedRow].Cells[0].Value.ToString();
-            txtNama2.Text    = DataGridPerusahaan.Rows[selectedRow].Cells[1].Value.ToString();
-            txtNpwp2.Text    = DataGridPerusahaan.Rows[selectedRow].Cells[2].Value.ToString();
+            txtID.Text = DataGridPerusahaan.Rows[selectedRow].Cells[0 + 1].Value.ToString();
+            txtNama2.Text = DataGridPerusahaan.Rows[selectedRow].Cells[1 + 1].Value.ToString();
+            txtNpwp2.Text = DataGridPerusahaan.Rows[selectedRow].Cells[2 + 1].Value.ToString();
+            txtKontakv1.Text = DataGridPerusahaan.Rows[selectedRow].Cells[3 + 1].Value.ToString();
+            txtKontakv2.Text = DataGridPerusahaan.Rows[selectedRow].Cells[4 + 1].Value.ToString();
+            txtAlamat2.Text = DataGridPerusahaan.Rows[selectedRow].Cells[5 + 1].Value.ToString();
+        }
+
+        public void ViewData2()
+        {
+            int selectedRow = DataGridPerusahaan.CurrentCell.RowIndex;
+
+            txtNama.Text = DataGridPerusahaan.Rows[selectedRow].Cells[1].Value.ToString();
+            txtNpwp.Text = DataGridPerusahaan.Rows[selectedRow].Cells[2].Value.ToString();
+            txtKontak1.Text = DataGridPerusahaan.Rows[selectedRow].Cells[3].Value.ToString();
+            txtKontak2.Text = DataGridPerusahaan.Rows[selectedRow].Cells[4].Value.ToString();
+            txtAlamat.Text = DataGridPerusahaan.Rows[selectedRow].Cells[5].Value.ToString();
+
+            txtID.Text = DataGridPerusahaan.Rows[selectedRow].Cells[0].Value.ToString();
+            txtNama2.Text = DataGridPerusahaan.Rows[selectedRow].Cells[1].Value.ToString();
+            txtNpwp2.Text = DataGridPerusahaan.Rows[selectedRow].Cells[2].Value.ToString();
             txtKontakv1.Text = DataGridPerusahaan.Rows[selectedRow].Cells[3].Value.ToString();
             txtKontakv2.Text = DataGridPerusahaan.Rows[selectedRow].Cells[4].Value.ToString();
-            txtAlamat2.Text  = DataGridPerusahaan.Rows[selectedRow].Cells[5].Value.ToString();
-
+            txtAlamat2.Text = DataGridPerusahaan.Rows[selectedRow].Cells[5].Value.ToString();
         }
         
         public void UpdateData(){
@@ -305,10 +323,18 @@ namespace Template_Project_Tae_Young
 
         private void DataGridPerusahaan_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if(e.ColumnIndex == DataGridPerusahaan.Columns[""].Index && e.RowIndex >= 0)
+            if(e.ColumnIndex == 6)
+            {
+                ViewData2();
+            }
+        }
+        private void DataGridPerusahaan_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
             {
                 ViewData();
             }
         }
+
     }
 }

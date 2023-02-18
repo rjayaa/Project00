@@ -208,7 +208,7 @@
             this.DataGridBarang.Size = new System.Drawing.Size(776, 154);
             this.DataGridBarang.TabIndex = 22;
             this.DataGridBarang.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridBarang_CellClick);
-            
+            this.DataGridBarang.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridBarang_CellContentClick);
             // 
             // comboBox
             // 

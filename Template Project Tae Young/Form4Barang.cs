@@ -49,7 +49,7 @@ namespace Template_Project_Tae_Young
 
             DataGridBarang.Columns[0].ReadOnly = true;
             DataGridBarang.Columns[1].ReadOnly = true;
-             DataGridBarang.CellClick += new DataGridViewCellEventHandler(DataGridBarang_CellClick); 
+            
 
 
             DisableViewInput();
@@ -127,8 +127,17 @@ namespace Template_Project_Tae_Young
         {
             int selectedRow = DataGridBarang.CurrentCell.RowIndex;
 
-            txtIDBarang.Text     = DataGridBarang.Rows[selectedRow].Cells[1].Value.ToString();
-            txtNamaBarang.Text   = DataGridBarang.Rows[selectedRow].Cells[2].Value.ToString();
+            txtIDBarang.Text     = DataGridBarang.Rows[selectedRow].Cells[0].Value.ToString();
+            txtNamaBarang.Text   = DataGridBarang.Rows[selectedRow].Cells[1].Value.ToString();
+            txtNamaBarang2.Text = DataGridBarang.Rows[selectedRow].Cells[1].Value.ToString();
+        }
+
+        public void ViewData2()
+        {
+            int selectedRow = DataGridBarang.CurrentCell.RowIndex;
+
+            txtIDBarang.Text = DataGridBarang.Rows[selectedRow].Cells[1].Value.ToString();
+            txtNamaBarang.Text = DataGridBarang.Rows[selectedRow].Cells[2].Value.ToString();
             txtNamaBarang2.Text = DataGridBarang.Rows[selectedRow].Cells[2].Value.ToString();
         }
 
@@ -184,6 +193,15 @@ namespace Template_Project_Tae_Young
             if(comboBox.Text == "Nama Barang")
             {
                 string query = "SELECT ID_Barang, Nama_Barang FROM Barang WHERE Nama_Barang LIKE '" + txtSearch.Text + "%'";
+                MySqlCommand cmd = new MySqlCommand(query,Koneksi);
+                MySqlDataReader reader = cmd.ExecuteReader();
+                DataTable st = new DataTable();
+                st.Load(reader);
+                DataGridBarang.DataSource = st;
+                Koneksi.Close();
+            }else if(comboBox.Text == "")
+            {
+                string query = "SELECT ID_Barang, Nama_Barang FROM Barang WHERE Nama_Barang LIKE '" + txtSearch.Text + "%'";
                 MySqlCommand cmd = new MySqlCommand(query, Koneksi);
                 MySqlDataReader reader = cmd.ExecuteReader();
                 DataTable st = new DataTable();
@@ -226,10 +244,18 @@ namespace Template_Project_Tae_Young
 
         private void DataGridBarang_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.ColumnIndex == DataGridBarang.Columns[""].Index)
+            if (e.RowIndex >= 0)
             {
                 ViewData();
             }
+           
+        }
+
+        private void DataGridBarang_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if(e.ColumnIndex == DataGridBarang.Columns[""].Index && e.RowIndex >= 0) {
+                ViewData2();
+           }
         }
     }
 }
