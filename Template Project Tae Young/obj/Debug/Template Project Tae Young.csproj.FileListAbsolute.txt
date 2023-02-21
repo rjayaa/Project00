@@ -36,7 +36,6 @@ C:\Users\ragil\OneDrive\Documents\Project00\Template Project Tae Young\bin\Debug
 C:\Users\ragil\OneDrive\Documents\Project00\Template Project Tae Young\bin\Debug\Template Project Tae Young.exe
 C:\Users\ragil\OneDrive\Documents\Project00\Template Project Tae Young\bin\Debug\Template Project Tae Young.pdb
 C:\Users\ragil\OneDrive\Documents\Project00\Template Project Tae Young\obj\Debug\Template Project Tae Young.csproj.AssemblyReference.cache
-C:\Users\ragil\OneDrive\Documents\Project00\Template Project Tae Young\obj\Debug\Template Project Tae Young.csproj.SuggestedBindingRedirects.cache
 C:\Users\ragil\OneDrive\Documents\Project00\Template Project Tae Young\obj\Debug\Apps_CURD.Form2Menu.resources
 C:\Users\ragil\OneDrive\Documents\Project00\Template Project Tae Young\obj\Debug\Template_Project_Tae_Young.Form1Login.resources
 C:\Users\ragil\OneDrive\Documents\Project00\Template Project Tae Young\obj\Debug\Template_Project_Tae_Young.Form3Perusahaan.resources

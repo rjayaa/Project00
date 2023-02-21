@@ -17,7 +17,7 @@ namespace Template_Project_Tae_Young
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form4Barang());
+            Application.Run(new Form5HargaBarang());
         }
     }
 }

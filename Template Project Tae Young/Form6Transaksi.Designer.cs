@@ -31,19 +31,21 @@
             this.button5 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button4 = new System.Windows.Forms.Button();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -53,12 +55,10 @@
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.label13 = new System.Windows.Forms.Label();
             this.textBox10 = new System.Windows.Forms.TextBox();
-            this.button9 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -104,6 +104,47 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "CRUD";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(6, 110);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(76, 13);
+            this.label4.TabIndex = 43;
+            this.label4.Text = "No Kendaraan";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(103, 107);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(212, 20);
+            this.textBox3.TabIndex = 42;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(6, 74);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(66, 13);
+            this.label3.TabIndex = 41;
+            this.label3.Text = "Alias Barang";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(103, 71);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(212, 20);
+            this.textBox2.TabIndex = 23;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 148);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(68, 13);
+            this.label2.TabIndex = 40;
+            this.label2.Text = "Hari Tanggal";
+            // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
@@ -120,6 +161,15 @@
             this.button4.TabIndex = 37;
             this.button4.Text = "Clear";
             this.button4.UseVisualStyleBackColor = true;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.CustomFormat = "";
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker1.Location = new System.Drawing.Point(103, 142);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(212, 20);
+            this.dateTimePicker1.TabIndex = 39;
             // 
             // textBox1
             // 
@@ -155,56 +205,6 @@
             this.button1.Text = "Insert";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.CustomFormat = "";
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(103, 142);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(212, 20);
-            this.dateTimePicker1.TabIndex = 39;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 148);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(68, 13);
-            this.label2.TabIndex = 40;
-            this.label2.Text = "Hari Tanggal";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(103, 71);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(212, 20);
-            this.textBox2.TabIndex = 23;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 74);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 13);
-            this.label3.TabIndex = 41;
-            this.label3.Text = "Alias Barang";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 110);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(76, 13);
-            this.label4.TabIndex = 43;
-            this.label4.Text = "No Kendaraan";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(103, 107);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(212, 20);
-            this.textBox3.TabIndex = 42;
-            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.button8);
@@ -224,6 +224,24 @@
             this.groupBox2.TabIndex = 44;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "View";
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(321, 184);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(74, 23);
+            this.button8.TabIndex = 47;
+            this.button8.Text = "Delete";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(235, 184);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(75, 23);
+            this.button9.TabIndex = 48;
+            this.button9.Text = "Cancel";
+            this.button9.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
@@ -298,15 +316,6 @@
             this.label9.TabIndex = 18;
             this.label9.Text = "Nama Perusahaan";
             // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(321, 184);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(74, 23);
-            this.button8.TabIndex = 47;
-            this.button8.Text = "Delete";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
             // dataGridView1
             // 
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -342,15 +351,6 @@
             this.textBox10.Size = new System.Drawing.Size(230, 20);
             this.textBox10.TabIndex = 46;
             // 
-            // button9
-            // 
-            this.button9.Location = new System.Drawing.Point(235, 184);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 23);
-            this.button9.TabIndex = 48;
-            this.button9.Text = "Cancel";
-            this.button9.UseVisualStyleBackColor = true;
-            // 
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(773, 21);
@@ -376,6 +376,7 @@
             this.Controls.Add(this.label6);
             this.Name = "Form6Transaksi";
             this.Text = "Transaksi Surat Jalan";
+            this.Load += new System.EventHandler(this.Form6Transaksi_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

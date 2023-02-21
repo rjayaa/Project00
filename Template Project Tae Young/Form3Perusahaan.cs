@@ -146,9 +146,7 @@ namespace Template_Project_Tae_Young
         }
 
         public void ViewData(){
-            
-            
-            
+
             int selectedRow = DataGridPerusahaan.CurrentCell.RowIndex;
             txtNama.Text = DataGridPerusahaan.Rows[selectedRow].Cells[1 + 1].Value.ToString();
             txtNpwp.Text = DataGridPerusahaan.Rows[selectedRow].Cells[2 + 1].Value.ToString();
