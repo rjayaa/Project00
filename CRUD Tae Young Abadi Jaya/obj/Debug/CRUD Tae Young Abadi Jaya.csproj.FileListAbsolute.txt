@@ -1,0 +1,80 @@
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\bin\Debug\CRUD Tae Young Abadi Jaya.exe.config
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\bin\Debug\CRUD Tae Young Abadi Jaya.exe
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\bin\Debug\CRUD Tae Young Abadi Jaya.pdb
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\bin\Debug\Google.Protobuf.dll
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\bin\Debug\MySql.Data.dll
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\bin\Debug\NuGet.Frameworks.dll
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\bin\Debug\System.Buffers.dll
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\bin\Debug\System.Memory.dll
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\bin\Debug\ZstdNet.dll
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\bin\Debug\Google.Protobuf.pdb
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\bin\Debug\Google.Protobuf.xml
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\bin\Debug\MySql.Data.xml
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\bin\Debug\NuGet.Frameworks.xml
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\bin\Debug\System.Buffers.xml
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\bin\Debug\System.Memory.xml
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\obj\Debug\CRUD Tae Young Abadi Jaya.csproj.AssemblyReference.cache
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\obj\Debug\CRUD Tae Young Abadi Jaya.csproj.SuggestedBindingRedirects.cache
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\obj\Debug\CRUD_Tae_Young_Abadi_Jaya.Form1Login.resources
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\obj\Debug\CRUD_Tae_Young_Abadi_Jaya.Form2Menu.resources
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\obj\Debug\CRUD_Tae_Young_Abadi_Jaya.Form3Perusahaan.resources
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\obj\Debug\CRUD_Tae_Young_Abadi_Jaya.Properties.Resources.resources
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\obj\Debug\CRUD Tae Young Abadi Jaya.csproj.GenerateResource.cache
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\obj\Debug\CRUD Tae Young Abadi Jaya.csproj.CoreCompileInputs.cache
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\obj\Debug\CRUD Tae Young Abadi Jaya.csproj.CopyComplete
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\obj\Debug\CRUD Tae Young Abadi Jaya.exe
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\obj\Debug\CRUD Tae Young Abadi Jaya.pdb
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\obj\Debug\CRUD_Tae_Young_Abadi_Jaya.Form4Barang.resources
+C:\Users\titus\Desktop\CRUD Tae Young Abadi Jaya\obj\Debug\CRUD_Tae_Young_Abadi_Jaya.Form5HargaBarang.resources
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\bin\Debug\CRUD Tae Young Abadi Jaya.exe.config
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\bin\Debug\CRUD Tae Young Abadi Jaya.exe
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\bin\Debug\CRUD Tae Young Abadi Jaya.pdb
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\bin\Debug\Google.Protobuf.dll
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\bin\Debug\MySql.Data.dll
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\bin\Debug\NuGet.Frameworks.dll
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\bin\Debug\System.Buffers.dll
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\bin\Debug\System.Memory.dll
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\bin\Debug\ZstdNet.dll
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\bin\Debug\Google.Protobuf.pdb
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\bin\Debug\Google.Protobuf.xml
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\bin\Debug\MySql.Data.xml
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\bin\Debug\NuGet.Frameworks.xml
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\bin\Debug\System.Buffers.xml
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\bin\Debug\System.Memory.xml
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\obj\Debug\CRUD Tae Young Abadi Jaya.csproj.AssemblyReference.cache
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\obj\Debug\CRUD_Tae_Young_Abadi_Jaya.Form1Login.resources
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\obj\Debug\CRUD_Tae_Young_Abadi_Jaya.Form2Menu.resources
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\obj\Debug\CRUD_Tae_Young_Abadi_Jaya.Form3Perusahaan.resources
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\obj\Debug\CRUD_Tae_Young_Abadi_Jaya.Form4Barang.resources
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\obj\Debug\CRUD_Tae_Young_Abadi_Jaya.Form5HargaBarang.resources
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\obj\Debug\CRUD_Tae_Young_Abadi_Jaya.Properties.Resources.resources
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\obj\Debug\CRUD Tae Young Abadi Jaya.csproj.GenerateResource.cache
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\obj\Debug\CRUD Tae Young Abadi Jaya.csproj.CoreCompileInputs.cache
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\obj\Debug\CRUD Tae Young Abadi Jaya.csproj.CopyComplete
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\obj\Debug\CRUD Tae Young Abadi Jaya.exe
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\obj\Debug\CRUD Tae Young Abadi Jaya.pdb
+C:\Users\ragil\Downloads\CRUD Tae Young Abadi Jaya\CRUD Tae Young Abadi Jaya\obj\Debug\CRUD_Tae_Young_Abadi_Jaya.FormSuratJalan.resources

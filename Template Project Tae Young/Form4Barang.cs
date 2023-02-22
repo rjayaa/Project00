@@ -167,7 +167,7 @@ namespace Template_Project_Tae_Young
             txtNamaBarang2.Text = txt_1;
         }
 
-        public void DeletData()
+        public void DeleteData()
         {
             string txt_0 = txtIDBarang.Text;
 
@@ -234,7 +234,7 @@ namespace Template_Project_Tae_Young
 
         private void txtDelete_Click(object sender, EventArgs e)
         {
-            DeletData();
+            DeleteData();
         }
 
         private void btnClear_Click(object sender, EventArgs e)

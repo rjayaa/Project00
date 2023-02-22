@@ -31,7 +31,7 @@
             this.button5 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.nilaiHargaBarang = new System.Windows.Forms.NumericUpDown();
             this.label3 = new System.Windows.Forms.Label();
             this.cbNamaBarang = new System.Windows.Forms.ComboBox();
             this.txtIDNamaBarang = new System.Windows.Forms.TextBox();
@@ -41,26 +41,26 @@
             this.txtIDPerusahaan = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnInsert = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtNPView = new System.Windows.Forms.TextBox();
+            this.txtNBView = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtHBView = new System.Windows.Forms.TextBox();
+            this.txtIDView2 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtIDView = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.DataGridHargaBarang = new System.Windows.Forms.DataGridView();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.label13 = new System.Windows.Forms.Label();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nilaiHargaBarang)).BeginInit();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridHargaBarang)).BeginInit();
             this.SuspendLayout();
             // 
             // button5
@@ -83,7 +83,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.numericUpDown1);
+            this.groupBox1.Controls.Add(this.nilaiHargaBarang);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.cbNamaBarang);
             this.groupBox1.Controls.Add(this.txtIDNamaBarang);
@@ -93,7 +93,7 @@
             this.groupBox1.Controls.Add(this.txtIDPerusahaan);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.btnInsert);
             this.groupBox1.Location = new System.Drawing.Point(15, 58);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(421, 185);
@@ -101,12 +101,17 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "CRUD";
             // 
-            // numericUpDown1
+            // nilaiHargaBarang
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(103, 110);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(212, 20);
-            this.numericUpDown1.TabIndex = 44;
+            this.nilaiHargaBarang.Location = new System.Drawing.Point(103, 110);
+            this.nilaiHargaBarang.Maximum = new decimal(new int[] {
+            1000000000,
+            0,
+            0,
+            0});
+            this.nilaiHargaBarang.Name = "nilaiHargaBarang";
+            this.nilaiHargaBarang.Size = new System.Drawing.Size(212, 20);
+            this.nilaiHargaBarang.TabIndex = 44;
             // 
             // label3
             // 
@@ -185,26 +190,27 @@
             this.label1.TabIndex = 18;
             this.label1.Text = "Nama Perusahaan";
             // 
-            // button1
+            // btnInsert
             // 
-            this.button1.Location = new System.Drawing.Point(340, 146);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 34;
-            this.button1.Text = "Insert";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnInsert.Location = new System.Drawing.Point(340, 146);
+            this.btnInsert.Name = "btnInsert";
+            this.btnInsert.Size = new System.Drawing.Size(75, 23);
+            this.btnInsert.TabIndex = 34;
+            this.btnInsert.Text = "Insert";
+            this.btnInsert.UseVisualStyleBackColor = true;
+            this.btnInsert.Click += new System.EventHandler(this.btnInsert_Click);
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.button8);
             this.groupBox2.Controls.Add(this.button9);
-            this.groupBox2.Controls.Add(this.textBox8);
-            this.groupBox2.Controls.Add(this.textBox7);
+            this.groupBox2.Controls.Add(this.txtNPView);
+            this.groupBox2.Controls.Add(this.txtNBView);
             this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Controls.Add(this.textBox4);
-            this.groupBox2.Controls.Add(this.textBox5);
+            this.groupBox2.Controls.Add(this.txtHBView);
+            this.groupBox2.Controls.Add(this.txtIDView2);
             this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.textBox6);
+            this.groupBox2.Controls.Add(this.txtIDView);
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Location = new System.Drawing.Point(460, 58);
             this.groupBox2.Name = "groupBox2";
@@ -231,19 +237,19 @@
             this.button9.Text = "Cancel";
             this.button9.UseVisualStyleBackColor = true;
             // 
-            // textBox8
+            // txtNPView
             // 
-            this.textBox8.Location = new System.Drawing.Point(104, 34);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(212, 20);
-            this.textBox8.TabIndex = 45;
+            this.txtNPView.Location = new System.Drawing.Point(104, 34);
+            this.txtNPView.Name = "txtNPView";
+            this.txtNPView.Size = new System.Drawing.Size(212, 20);
+            this.txtNPView.TabIndex = 45;
             // 
-            // textBox7
+            // txtNBView
             // 
-            this.textBox7.Location = new System.Drawing.Point(104, 71);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(212, 20);
-            this.textBox7.TabIndex = 44;
+            this.txtNBView.Location = new System.Drawing.Point(104, 71);
+            this.txtNBView.Name = "txtNBView";
+            this.txtNBView.Size = new System.Drawing.Size(212, 20);
+            this.txtNBView.TabIndex = 44;
             // 
             // label4
             // 
@@ -254,19 +260,19 @@
             this.label4.TabIndex = 43;
             this.label4.Text = "Harga Barang";
             // 
-            // textBox4
+            // txtHBView
             // 
-            this.textBox4.Location = new System.Drawing.Point(103, 107);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(212, 20);
-            this.textBox4.TabIndex = 42;
+            this.txtHBView.Location = new System.Drawing.Point(103, 107);
+            this.txtHBView.Name = "txtHBView";
+            this.txtHBView.Size = new System.Drawing.Size(212, 20);
+            this.txtHBView.TabIndex = 42;
             // 
-            // textBox5
+            // txtIDView2
             // 
-            this.textBox5.Location = new System.Drawing.Point(321, 71);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(74, 20);
-            this.textBox5.TabIndex = 40;
+            this.txtIDView2.Location = new System.Drawing.Point(321, 71);
+            this.txtIDView2.Name = "txtIDView2";
+            this.txtIDView2.Size = new System.Drawing.Size(74, 20);
+            this.txtIDView2.TabIndex = 40;
             // 
             // label5
             // 
@@ -277,12 +283,12 @@
             this.label5.TabIndex = 39;
             this.label5.Text = "Nama Barang";
             // 
-            // textBox6
+            // txtIDView
             // 
-            this.textBox6.Location = new System.Drawing.Point(321, 34);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(74, 20);
-            this.textBox6.TabIndex = 19;
+            this.txtIDView.Location = new System.Drawing.Point(321, 34);
+            this.txtIDView.Name = "txtIDView";
+            this.txtIDView.Size = new System.Drawing.Size(74, 20);
+            this.txtIDView.TabIndex = 19;
             // 
             // label7
             // 
@@ -293,16 +299,15 @@
             this.label7.TabIndex = 18;
             this.label7.Text = "Nama Perusahaan";
             // 
-            // dataGridView1
+            // DataGridHargaBarang
             // 
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 288);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(862, 150);
-            this.dataGridView1.TabIndex = 45;
+            this.DataGridHargaBarang.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.DataGridHargaBarang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DataGridHargaBarang.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.DataGridHargaBarang.Location = new System.Drawing.Point(0, 300);
+            this.DataGridHargaBarang.Name = "DataGridHargaBarang";
+            this.DataGridHargaBarang.Size = new System.Drawing.Size(886, 150);
+            this.DataGridHargaBarang.TabIndex = 45;
             // 
             // comboBox3
             // 
@@ -334,7 +339,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(886, 450);
             this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.DataGridHargaBarang);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.textBox10);
@@ -346,10 +351,10 @@
             this.Load += new System.EventHandler(this.Form5HargaBarang_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nilaiHargaBarang)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridHargaBarang)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -369,22 +374,22 @@
         private System.Windows.Forms.TextBox txtIDPerusahaan;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnInsert;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtNPView;
+        private System.Windows.Forms.TextBox txtNBView;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtHBView;
+        private System.Windows.Forms.TextBox txtIDView2;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtIDView;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView DataGridHargaBarang;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown nilaiHargaBarang;
     }
 }

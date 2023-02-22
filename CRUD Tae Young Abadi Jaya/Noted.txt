@@ -1,0 +1,19 @@
+private void button5_Click(object sender, EventArgs e)
+        {
+            string lastQuery = "";
+            string query = "SELECT Query_History FROM History ORDER BY ID_History DESC LIMIT 1";
+            using (connection)
+            {
+                connection.Open();
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                MySqlDataReader reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    lastQuery = reader["Query_History"].ToString();
+                }
+                MessageBox.Show(lastQuery);
+                reader.Close();
+                MySqlCommand cmd1 = new MySqlCommand(lastQuery, connection);
+                cmd1.ExecuteNonQuery();
+            }
+        }
